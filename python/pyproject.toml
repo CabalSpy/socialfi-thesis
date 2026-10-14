@@ -1,0 +1,77 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "socialfi-thesis"
+version = "0.5.0"
+description = "SocialFi token theses — holders-only opinions on a token with the author's real position and live PnL, replies, reactions and a drop-in thesis widget for any crypto app. By CabalSpy ID."
+readme = "README.md"
+license = "MIT"
+requires-python = ">=3.10"
+authors = [{ name = "CabalSpy", email = "contact@cabalspy.xyz" }]
+keywords = [
+  "socialfi-thesis",
+  "token-thesis",
+  "token-theses",
+  "socialfi-widget",
+  "socialfi",
+  "social-trading",
+  "copy-trading",
+  "crypto-social",
+  "web3-social",
+  "kol",
+  "kol-tracker",
+  "wallet-tracker",
+  "trading-leaderboard",
+  "pnl",
+  "crypto-login",
+  "solana",
+  "bnb",
+  "base",
+  "ethereum",
+  "cabalspy",
+  "cabalspy-id",
+  "sdk",
+  "python",
+]
+classifiers = [
+  "Development Status :: 4 - Beta",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
+  "Programming Language :: Python :: 3.13",
+  "Topic :: Internet :: WWW/HTTP",
+  "Topic :: Office/Business :: Financial",
+  "Topic :: Software Development :: Libraries :: Python Modules",
+  "Typing :: Typed",
+]
+dependencies = ["cabalspy-id>=0.5.0,<0.6"]
+
+[project.optional-dependencies]
+stream = ["cabalspy-id[stream]>=0.5.0,<0.6"]
+dev = ["pytest>=8.0", "websockets>=14.0"]
+
+[project.urls]
+Homepage = "https://www.cabalspy.xyz/cabalspy-id/"
+Documentation = "https://docs.cabalspy.xyz/cabalspy-id"
+Repository = "https://github.com/CabalSpy/socialfi-thesis"
+Issues = "https://github.com/CabalSpy/socialfi-thesis/issues"
+SDK = "https://pypi.org/project/cabalspy-id/"
+
+[tool.hatch.build.targets.wheel]
+packages = ["socialfi_thesis"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+extend-exclude = ["*.md"]
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I", "UP"]

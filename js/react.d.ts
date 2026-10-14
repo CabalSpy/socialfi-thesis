@@ -1,0 +1,1 @@
+export { CabalSpyTheses, useCabalSpyID, loadCabalSpyIDWidget, WIDGET_SRC, type CabalSpyThesesProps, type ThesisWidgetOptions, type UseCabalSpyIDOptions, type UseCabalSpyIDResult, type CSIDGlobal } from 'cabalspy-id/react';
