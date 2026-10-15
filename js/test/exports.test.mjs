@@ -31,6 +31,6 @@ test('CommonJS', () => {
 
 test('the public thesis client works through the package', async () => {
   const body = { success: true, data: { theses: 2, bull: 1, bear: 1, authors: 2, token: {} } };
-  const tc = new pkg.ThesisClient({ fetch: async () => new Response(JSON.stringify(body)) });
+  const tc = new pkg.ThesisClient({ clientId: 'csid_test', fetch: async () => new Response(JSON.stringify(body)) });
   assert.equal((await tc.summary('solana', 'So11111111111111111111111111111111111111112')).theses, 2);
 });

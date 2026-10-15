@@ -18,7 +18,7 @@ import { CabalSpyTheses } from 'socialfi-thesis/react';
 <CabalSpyTheses chain="solana" mint={mint} clientId="csid_..." theme="dark" accessToken={accessToken} />
 ```
 
-**Your own UI** (public thesis API with the user's access token, no API key)
+**Your own UI** (public thesis API: your instance's public `clientId` from the dashboard, required, not the API key, plus the user's access token)
 
 ```ts
 import { ThesisClient } from 'socialfi-thesis';

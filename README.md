@@ -16,7 +16,7 @@ import { CabalSpyTheses } from 'socialfi-thesis/react';
 <CabalSpyTheses chain="solana" mint={mint} clientId="csid_..." />
 ```
 
-No build step? The plain HTML widget: `<div data-csid-thesis data-chain="solana" data-mint="..."></div>` with `<script src="https://id.cabalspy.xyz/widget.js" async></script>` — or [socialfi-widget](https://github.com/CabalSpy/socialfi-widget).
+No build step? The plain HTML widget: `<div data-csid-thesis data-chain="solana" data-mint="..." data-client-id="csid_..."></div>` with `<script src="https://id.cabalspy.xyz/widget.js" async></script>` — or [socialfi-widget](https://github.com/CabalSpy/socialfi-widget).
 
 ## Packages
 
