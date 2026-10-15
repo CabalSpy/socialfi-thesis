@@ -17,7 +17,7 @@ csid = CabalSpyID()  # Data API key: read everything, write in your users' names
 theses = csid.list_theses(blockchain="solana", mint=mint, sort="top")
 csid.post_thesis(blockchain="solana", mint=mint, body="Accumulating here.", stance="bull", csid_id=user_sub)
 
-with ThesisClient(access_token) as tc:  # public thesis API with the user's access token
+with ThesisClient(access_token, client_id="csid_...") as tc:  # public thesis API: your public client_id + the user's token
     page = tc.list("solana", mint)
 ```
 
