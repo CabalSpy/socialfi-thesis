@@ -46,7 +46,7 @@ ts.subscribe([{ blockchain: 'solana', mint }]);
 
 Contents: the `cabalspy-id/thesis` entry point (`CabalSpyID` thesis methods, `ThesisClient`, `ThesisLive`, `ThesesStream`, thesis types) and `socialfi-thesis/react` (`<CabalSpyTheses />`, `useCabalSpyID()`). Full reference: [cabalspy-id README — Token theses](https://github.com/CabalSpy/cabalspy-id-js#token-theses).
 
-Versions follow `cabalspy-id`: 0.5.0 depends on `cabalspy-id` 0.5.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
+Versions follow `cabalspy-id`: 0.6.0 depends on `cabalspy-id` 0.6.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
 
 ## License
 

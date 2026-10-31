@@ -15,7 +15,7 @@ def test_reexports_the_same_objects() -> None:
 def test_entry_points() -> None:
     for name in ["CabalSpyID", "AsyncCabalSpyID", "ThesisClient", "AsyncThesisClient", "ThesisLive", "ThesesStream"]:
         assert getattr(socialfi_thesis, name) is getattr(source, name), name
-    assert socialfi_thesis.__version__ == "0.5.0"
+    assert socialfi_thesis.__version__ == "0.6.0"
     assert socialfi_thesis.cabalspy_id_version == source.__version__
 
 

@@ -23,7 +23,7 @@ with ThesisClient(access_token, client_id="csid_...") as tc:  # public thesis AP
 
 Contents: the `cabalspy_id.thesis` module. Full reference: [cabalspy-id README — Token theses](https://github.com/CabalSpy/cabalspy-id-python#token-theses).
 
-Versions follow `cabalspy-id`: 0.5.0 depends on `cabalspy-id` 0.5.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
+Versions follow `cabalspy-id`: 0.6.0 depends on `cabalspy-id` 0.6.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
 
 ## License
 
