@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "socialfi-thesis"
-version = "0.5.0"
+version = "0.6.0"
 description = "SocialFi token theses — holders-only opinions on a token with the author's real position and live PnL, replies, reactions and a drop-in thesis widget for any crypto app. By CabalSpy ID."
 readme = "README.md"
 license = "MIT"
@@ -49,10 +49,10 @@ classifiers = [
   "Topic :: Software Development :: Libraries :: Python Modules",
   "Typing :: Typed",
 ]
-dependencies = ["cabalspy-id>=0.5.0,<0.6"]
+dependencies = ["cabalspy-id>=0.6.0,<0.7"]
 
 [project.optional-dependencies]
-stream = ["cabalspy-id[stream]>=0.5.0,<0.6"]
+stream = ["cabalspy-id[stream]>=0.6.0,<0.7"]
 dev = ["pytest>=8.0", "websockets>=14.0"]
 
 [project.urls]

@@ -27,7 +27,7 @@ No build step? The plain HTML widget: `<div data-csid-thesis data-chain="solana"
 | [socialfi-thesis](https://github.com/CabalSpy/socialfi-thesis) | `socialfi-thesis` | `socialfi-thesis` |
 | [socialfi-widget](https://github.com/CabalSpy/socialfi-widget) | `socialfi-widget` | – |
 
-Versions follow `cabalspy-id`: 0.5.0 depends on `cabalspy-id` 0.5.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
+Versions follow `cabalspy-id`: 0.6.0 depends on `cabalspy-id` 0.6.0. This package contains no code of its own — it re-exports part of `cabalspy-id`, so behaviour, fixes and types are always the same.
 
 ## Releasing
 
